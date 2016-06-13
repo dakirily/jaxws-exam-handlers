@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 
+    File defines list of handler, which will be called during message processing
+-->
+<javaee:handler-chains 
+    xmlns:javaee="http://java.sun.com/xml/ns/javaee" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <javaee:handler-chain>
+        <javaee:handler>
+            <javaee:handler-class>com.tsi.jaxws.exam.handler.soap.SoapHandler01</javaee:handler-class>
+        </javaee:handler>
+        <javaee:handler>
+            <javaee:handler-class>com.tsi.jaxws.exam.handler.soap.SoapHandler02</javaee:handler-class>
+        </javaee:handler>
+        <javaee:handler>
+            <javaee:handler-class>com.tsi.jaxws.exam.handler.soap.SoapHandler03</javaee:handler-class>
+        </javaee:handler>
+        <javaee:handler>
+            <javaee:handler-class>com.tsi.jaxws.exam.handler.logical.LogicalHandler01</javaee:handler-class>
+        </javaee:handler>
+        <javaee:handler>
+            <javaee:handler-class>com.tsi.jaxws.exam.handler.logical.LogicalHandler02</javaee:handler-class>
+        </javaee:handler>
+        <javaee:handler>
+            <javaee:handler-class>com.tsi.jaxws.exam.handler.logical.LogicalHandler03</javaee:handler-class>
+        </javaee:handler>
+    </javaee:handler-chain>
+</javaee:handler-chains>

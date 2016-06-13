@@ -1,0 +1,1 @@
+Example shows use of logical handlers and SOAP handlers using handler-chain configuration file.
